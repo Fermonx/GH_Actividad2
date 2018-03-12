@@ -1,0 +1,16 @@
+.navbar
+{
+    background-color: orangered;
+    padding: 1em !important;
+}
+
+nav li
+{
+    color: white !important;
+}
+
+li a
+{
+    text-decoration: none;
+    color: white !important;
+}
