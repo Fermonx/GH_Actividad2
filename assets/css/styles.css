@@ -1,16 +1,102 @@
 .navbar
 {
     background-color: orangered;
-    padding: 1em !important;
+    padding: 5px !important;
 }
 
 nav li
 {
     color: white !important;
+    padding-right: 2em;
 }
 
 li a
 {
     text-decoration: none;
     color: white !important;
+}
+
+.logoHeader{
+    width: 5em;
+}
+
+.fa-github
+{
+    color: white;
+    padding-right: 4px;
+}
+
+.fa-github:hover
+{
+    color: black;
+}
+
+.fa-stack-overflow
+{
+    color: white;
+    padding-right: 4px;
+}
+
+.fa-stack-overflow:hover
+{
+    color: black;
+}
+
+.fa-youtube
+{
+    color: white;
+}
+
+.fa-youtube:hover
+{
+    color: black;
+}
+
+.fa-facebook
+{
+    color: white;
+}
+
+.fa-facebook:hover
+{
+    color: black;
+}
+
+/* Pulse */
+@-webkit-keyframes hvr-pulse {
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+@keyframes hvr-pulse {
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+.hvr-pulse {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+}
+.hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
 }
