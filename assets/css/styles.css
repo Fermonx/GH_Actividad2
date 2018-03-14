@@ -10,10 +10,16 @@ nav li
     padding-right: 2em;
 }
 
+
 li a
 {
     text-decoration: none;
     color: white !important;
+}
+
+nav a:hover
+{
+    color: black;
 }
 
 .logoHeader{
@@ -109,7 +115,41 @@ li a
     transform: translate(-50%, -50%);
     font-size: 4em;
     font-family: 'Patua One', cursive;
-    color: white;
+    color: orangered;
     text-shadow: 3px 3px 0 #000000;
     line-height: 0.86em;
+}
+
+footer
+{
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    padding-top: 1.5em;
+    line-height: 0.5em;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover
+{
+    color: black;
+}
+
+.spread
+{
+    margin-top: 1em;
+    margin-bottom: 4em;
+}
+
+.map
+{
+    width: 350px;
+    height: 300px;
+    border:0;
+    padding-bottom: 4em;
 }
