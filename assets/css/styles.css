@@ -20,24 +20,24 @@ li a
     width: 5em;
 }
 
-.fa-github
+.fa-twitter
 {
     color: white;
     padding-right: 4px;
 }
 
-.fa-github:hover
+.fa-twitter:hover
 {
     color: black;
 }
 
-.fa-stack-overflow
+.fa-slack-hash
 {
     color: white;
     padding-right: 4px;
 }
 
-.fa-stack-overflow:hover
+.fa-slack-hash:hover
 {
     color: black;
 }
@@ -99,4 +99,17 @@ li a
     animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+}
+
+.centered
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+    font-family: 'Patua One', cursive;
+    color: white;
+    text-shadow: 3px 3px 0 #000000;
+    line-height: 0.86em;
 }

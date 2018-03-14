@@ -1,14 +1,18 @@
-npm{
+{
   "name": "actividad2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "gruntfile.js",
   "dependencies": {
     "bower": "^1.8.2",
     "grunt": "^1.0.2",
     "grunt-cli": "^1.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt-connect": "^0.2.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
