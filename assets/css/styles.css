@@ -211,3 +211,17 @@ form_main {
     color: #5793ef;
     transition: all 0.5s ease 0s;
 }
+
+
+
+.fa-angle-double-left
+{
+    color: white;
+    background-color: orangered;
+}
+
+.fa-angle-double-right
+{
+    color: white;
+    background-color: orangered;
+}
