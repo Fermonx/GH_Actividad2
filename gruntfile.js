@@ -18,7 +18,7 @@ module.exports = function(grunt)
                 meta:{
                     port:1338,
                     base:'tasks',
-                    dest: '../actividad2/index.html'
+                    src: '../actividad2/index.html'
                 }
             }
         });
