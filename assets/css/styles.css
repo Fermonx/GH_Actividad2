@@ -211,3 +211,49 @@ form_main {
     color: #5793ef;
     transition: all 0.5s ease 0s;
 }
+
+
+
+.fa-angle-double-left{
+    color: white;
+    background-color: orangered;
+}
+
+.fa-angle-double-right{
+    color: white;
+    background-color: orangered;
+}
+
+.margen{
+    border: 0.2em solid transparent;
+    padding: 0.5em;
+}
+
+.align-text-top{
+
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Patua One', cursive;
+    color: orangered;
+    text-shadow: 1px 1px 0 #000000;
+}
+
+.align-text-bottom{
+    text-align: left;
+    background-color: orangered;
+    transform: translate(0%, 0%);
+    font-size: 100%;
+    font-family: 'Patua One', cursive;
+    color: white;
+    text-shadow: 1px 1px 0 #000000;
+}
+
+.precio{
+    text-align: center;
+    background-color: yellow;
+    transform: translate(0%, 0%);
+    font-size: 100%;
+    font-family: 'Patua One', cursive;
+    color: black;
+    text-shadow: 1px 1px 0 #000000;
+}
