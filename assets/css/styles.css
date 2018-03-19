@@ -263,7 +263,7 @@ form_main {
 @media screen and (max-width: 577px) {
 
     #quien-somos {
-        background-color: #F3E2A9;
+        background-color: orangered;
         height: 500px;
     }
 }
@@ -288,11 +288,15 @@ form_main {
 }
 
 .btn-boton,
-.btn-boton:hover,
 .btn-boton:active {
     font-size: 100%;
     font-family: 'Patua One', cursive;
     color: white;
     text-shadow: 1px 1px 0 #000000;
     background-color: orangered;
+}
+
+.btn-boton:hover
+{
+    background: black none repeat scroll 0 0;
 }
